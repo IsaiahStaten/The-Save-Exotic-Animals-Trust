@@ -5,10 +5,211 @@
    Case Problem 3
 
    The Save Exotic Animals Trust donor roster
-   Author: 
-   Date:   
+   Author: Isaiah Staten
+   Date: 06/02/2024
 
    Filename:             roster.xml
    Supporting document:  seatrust.dtd
 -->
+<roster>
+  <donors level= "founder">
+    <name>David Brennan</name>
+    <address>5133 Oak Street
+    Windermere, FL 34786</address>
+    <phone type="work">
+       <WorkNumber>(407)555-8189</WorkNumber>
+    </phone>
+    <phone type="home">
+       <HomeNumber>(407)555-8981</HomeNumber>
+    </phone> 
+    <email>dbrennan@example.net</email>
+    <donation>$50,000</donation>
+    <method>phone</method>
+    <effectiveDate>9/1/1982</effectiveDate>
+  </donors>
 
+  <donors level= "founder">
+    <name>Cindy Wu</name>
+    <address>31 Alice Avenue
+    Windermere, FL 34786</address>
+    <phone type="home">
+       <HomeNumber>(407)55-7212</HomeNumber>
+    </phone> 
+    <email>cwu@example.net</email>
+    <donation>$50,000</donation>
+    <method>phone</method>
+    <effectiveDate>9/1/1982</effectiveDate>
+  </donors>
+
+  <donors level= "sponser">
+    <name>David Olson</name>
+    <address>5133 Oak Street
+    Windermere, FL 34786</address>
+    <phone type="home">
+       <HomeNumber>(407)555-8981<HomeNumber>
+    </phone>
+    <phone type="cell">
+      <CellNumber>(407)555-8189</CellNumber>
+    </phone> 
+    <email>dolson@example.net</email>
+    <donation>$25,000</donation>
+    <method>personal</method>
+    <effectiveDate>7/3/1985</effectiveDate>
+  </donors>
+
+  <donors level= "sponser">
+    <name>Wilmer Stonehedge</name>
+    <address>31 Alice Avenue
+    Windermere, FL 34786</address>
+    <phone type="cell">
+      <CellNumber>(407)555-7212</CellNumber>
+    </phone> 
+    <email>dolson@example.net</email>
+    <donation>$25,000</donation>
+    <method>personal</method>
+    <effectiveDate>7/3/1985</effectiveDate>
+  </donors>
+
+  <donors level= "patron">
+    <name>Lee Unwin</name>
+    <address>451 Unwin Ct.
+    Orlando, FL 32801</address>
+    <phone type="cell">
+      <CellNumber>(407)555-9082</CellNumber>
+    </phone> 
+    <email>leeunwin@example.net</email>
+    <donation>$18,000</donation>
+    <method>personal</method>
+    <effectiveDate>11/1/1998</effectiveDate>
+  </donors>
+
+  <donors level= "patron">
+    <name>Jane Whitney</name>
+    <address>87 Hilltop Drive
+    Windermere, FL 34786</address>
+    <phone type="cell">
+      <CellNumber>(407)555-7493</CellNumber>
+    </phone> 
+    <email>N/A</email>
+    <donation>$15,000</donation>
+    <method>personal</method>
+    <effectiveDate>11/1/1998</effectiveDate>
+  </donors>
+
+  <donors level= "patron">
+    <name>Andrew Sanchez</name>
+    <address>891 Lindon Lane
+    Windermere, FL 34786</address>
+    <phone type="cell">
+      <CellNumber>(407)555-4313</CellNumber>
+    </phone> 
+    <email>asanchez@example.com</email>
+    <donation>$15,000</donation>
+    <method>personal</method>
+    <effectiveDate>3/4/2000</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Gary Windt</name>
+    <address>55 Hawking Street
+    Windermere, FL 34786</address>
+    <phone type="home">
+      <HomeNumber>(407)555-9939</HomeNumber>
+    </phone> 
+    <email>windtg@example.com</email>
+    <donation>$1,000</donation>
+    <method>phone</method>
+    <effectiveDate>3/4/2000</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Cynthia Browne</name>
+    <address>71 Circuit Ct.
+    Wheaton, KY 89321</address>
+    <phone type="cell">
+      <HomeNumber>(407)555-3813</HomeNumber>
+    </phone> 
+    <email>cynthia@example.com</email>
+    <donation>$1,000</donation>
+    <method>phone</method>
+    <effectiveDate>3/4/2000</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Howard Li</name>
+    <address>4312 East Oak Avenue
+    Youngston, Ky 89318</address>
+    <phone type="home">
+      <HomeNumber>(407)555-3921</HomeNumber>
+    </phone> 
+    <email>N/A</email>
+    <donation>$1,000</donation>
+    <method>mail</method>
+    <effectiveDate>3/4/2011</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Uma Thu</name>
+    <address>25 Longston Lane
+    Windermere, FL 34786</address>
+    <phone type="cell">
+      <HomeNumber>(407)555-34786</HomeNumber>
+    </phone> 
+    <email>N/A</email>
+    <donation>$1,000</donation>
+    <method>personal</method>
+    <effectiveDate>4/4/2012<effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Alan Wilkes</name>
+    <address>321 Ashburn
+    Jasper, KY 89831</address>
+    <phone type="home">
+      <HomeNumber>(407)555-1181</HomeNumber>
+    </phone> 
+    <email>wilkes_alan@example.edu</email>
+    <donation>$500</donation>
+    <method>mail</method>
+    <effectiveDate>1/4/2012</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Steve Bones</name>
+    <address>900 Lawton Street
+    Wheaton, KY 89211</address>
+    <phone type="cell">
+      <CellNumber>(407)555-5434</CellNumber>
+    </phone> 
+    <email>N/A</email>
+    <donation>$500</donation>
+    <method>personal</method>
+    <effectiveDate>9/14/2012</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Jeri White</name>
+    <address>Hawkwa Lane
+    Windermere, FL 89211</address>
+    <phone type="cell">
+      <CellNumber>(407)555-8828</CellNumber>
+    </phone> 
+    <email>jeri_white@example.com</email>
+    <donation>$300</donation>
+    <method>phone</method>
+    <effectiveDate>12/4/2012</effectiveDate>
+  </donors>
+
+  <donors level= "friendship">
+    <name>Tom Thomas</name>
+    <address>Rigel Avenue
+    Apopka, FL 32703</address>
+    <phone type="home">
+      <HomeNumber>(407)555-8311</HomeNumber>
+    </phone> 
+    <email>N/A</email>
+    <donation>$100</donation>
+    <method>phone</method>
+    <effectiveDate>2/4/2012</effectiveDate>
+  </donors>
+</roster>
